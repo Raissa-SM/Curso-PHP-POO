@@ -97,7 +97,7 @@
             echo "<br/>E agora, nosso lutador " . $this -> nacionalidade . ", o " . $this -> nome . ", com seus " . $this -> idade . " anos, " . $this -> altura . " metros de altura e pesando " . $this -> peso . "quilos.<br/>";
         }
         public function status() {
-            echo "<br/>-----" . $this -> nome . "-----<br/>Nacionalidade: " . $this -> nacionalidade . "<br/>Idade: " . $this -> idade . "<br/>Altura: " . $this -> altura . "<br/>Peso: " . $this -> peso . "<br/>Categoria: " . $this -> categoria . "<br/>Vitórias: " . $this -> vitorias . "<br/>Derrotas: " . $this -> derrotas . "<br/>Empates: " . $this -> empates . "<br/>";
+            echo "<div class='status'><h2>" . $this -> nome . "</h2>Nacionalidade: " . $this -> nacionalidade . "<br/>Idade: " . $this -> idade . "<br/>Altura: " . $this -> altura . "<br/>Peso: " . $this -> peso . "<br/>Categoria: " . $this -> categoria . "<br/>Vitórias: " . $this -> vitorias . "<br/>Derrotas: " . $this -> derrotas . "<br/>Empates: " . $this -> empates . "</div>";
         }
         public function ganharLuta() {
             $this -> setVitorias($this -> getVitorias() + 1);

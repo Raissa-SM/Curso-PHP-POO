@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8"/>
         <link rel="stylesheet" href="style.css"/>
-        <title>Relacionamento entre Classes aula 7</title>
+        <title>Relacionamento entre Classes aula 7 e 8</title>
     </head>
     <body>
         <pre>
